@@ -6,8 +6,6 @@ INSERT INTO tb_usuario (nm_usuario, ds_email, ds_senha)
      VALUES ('admin', 'admin@admin.com.br', '1234');
 
 
-
-
 -- CSU01:: efetuar login
 select id_usuario 		id,
        nm_usuario		nome,
@@ -18,11 +16,9 @@ select id_usuario 		id,
 
 
 
-
 -- CSU02:: cadastrar novo filme
 INSERT INTO tb_filme (id_usuario, nm_filme, ds_sinopse, vl_avaliacao, dt_lancamento, bt_disponivel)
      VALUES (1, 'Harry Potter e a Camara Secreta', 'Filme bem tops', 8.2, '2012-02-11', true);
-
 
 
 -- CSU02.1:: alterar a imagem
